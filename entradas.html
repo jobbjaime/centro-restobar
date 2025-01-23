@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dinner Restaurant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .menu-container {
+            display: flex;
+            gap: 20px;
+        }
+        .menu-column {
+            flex: 1;
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .menu-section {
+            margin-bottom: 20px;
+        }
+        .menu-section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            color: #2c3e50;
+        }
+        .menu-item {
+            margin-bottom: 10px;
+        }
+        .menu-item h3 {
+            margin-bottom: 5px;
+            color: #34495e;
+        }
+        .menu-item p {
+            color: #7f8c8d;
+            margin: 0;
+        }
+        .menu-item .price {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <img src="./assets/images/logo.jpg" alt="Dinner Restaurant" style="display: block; margin: 0 auto; max-width: 200px;">
+    <h1 style="text-align: center; color: #2c3e50;">Menu Entradas</h1>
+    <div class="menu-container">
+        <div class="menu-column">
+            <div class="menu-section">
+                <h2>Appetizers</h2>
+                <div class="menu-item">
+                    <h3>Ceviche Clásico</h3>
+                    <p>Trozos de pescado fresco marinados en limón, con cebolla, ají y cilantro.</p>
+                    <span class="price">S/ 20</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Ensalada Caprese</h3>
+                    <p>Rodajas de tomate, mozzarella fresca, albahaca y un toque de aceite de oliva.</p>
+                    <span class="price">S/ 18</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Anticuchos</h3>
+                    <p>Brochetas de corazón de res marinadas y asadas, servidas con papas doradas y ají.</p>
+                    <span class="price">S/ 22</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="menu-column">
+            <div class="menu-section">
+                <h2>Healthy Options</h2>
+                <div class="menu-item">
+                    <h3>Ensalada Mixta</h3>
+                    <p>Lechuga, tomate, pepino, zanahoria y aguacate con aderezo al gusto.</p>
+                    <span class="price">S/ 16</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Rollitos Primavera</h3>
+                    <p>Rollos de papel de arroz rellenos con vegetales frescos y pollo o camarones.</p>
+                    <span class="price">S/ 20</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Tartar de Salmón o Atún</h3>
+                    <p>Dados de pescado fresco marinados con limón, aceite de sésamo y especias.</p>
+                    <span class="price">S/ 24</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="menu-column">
+            <div class="menu-section">
+                <h2>Specialty Dishes</h2>
+                <div class="menu-item">
+                    <h3>Bocaditos Marinos</h3>
+                    <p>Variedad de pequeños aperitivos con mariscos (como conchas gratinadas o camarones).</p>
+                    <span class="price">S/ 28</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Mini Hamburguesas</h3>
+                    <p>Hamburguesas pequeñas de carne, pollo o vegetales con salsas caseras.</p>
+                    <span class="price">S/ 20</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Tabla de Quesos y Embutidos</h3>
+                    <p>Selección de quesos, jamones y frutos secos.</p>
+                    <span class="price">S/ 30</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
